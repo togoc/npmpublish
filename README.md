@@ -17,8 +17,9 @@
     * bugs:git
     * homepage: 如果是用git同步的文件夹会有指向git的地址
 * 根目录建立一个`index.js` 主入口文件
-* `npm adduser` 添加npm用户([先去创建一个npm账户](https://www.npmjs.com/))
-* `npm login` 登录
-* `npm publish` 发布()
+* 终端命令注释:
+  * `npm adduser` 添加npm用户([先去创建一个npm账户](https://www.npmjs.com/))
+  * `npm login` 登录
+  * `npm publish` 发布()
   
 
