@@ -21,7 +21,10 @@
   * `npm adduser` 添加npm用户([先去创建一个npm账户](https://www.npmjs.com/))
   * `npm login` 登录
   * `npm publish` 发布(镜像地址必须是npm,不能是其他不然报错)
+  * 取消发布某个版本的包: `npm unpublish z-tool@1.0.0`
+  * 删除整个包: `npm unpublish z-tool --force` 
 * 注释:他其实就是给你把模块保存起来,语法规则遵循模块化方法
+  * 发布后可以去[npm官网](https://www.npmjs.com/)搜索到自己发布的包
   
 * 错误注释:
   * 镜像地址错误: `no_perms Private mode enable, only admin can publish this module:` 
