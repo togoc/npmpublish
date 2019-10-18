@@ -1,13 +1,27 @@
-function sayHello() {
-    console.log("hello")
-}
-
-function sayGoodbay() {
-    console.log("baibai")
-}
+const express = require("express")
+const app = express()
 
 
-module.exports = {
-    sayHello,
-    sayGoodbay
+
+const router = express.Router()
+
+router.get()
+
+
+module.exports = router
+
+
+
+
+function server(str) {
+    app.listen(str, () => {
+        console.log("running " + str)
+    })
 }
+
+app.get("", function(re, rq) {
+
+})
+
+
+module.exports = app

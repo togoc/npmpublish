@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "togoc",
   "version": "1.0.0",
   "description": "* `npm init` 初始化项目,可以直接输入内容或者创建完后修改.\r   * 生成文件内容如下\r    ```",
   "main": "index.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/togoc/npmpublish/issues"
   },
-  "homepage": "https://github.com/togoc/npmpublish#readme"
+  "homepage": "https://github.com/togoc/npmpublish#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
