@@ -1,6 +1,6 @@
 {
   "name": "togoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "* `npm init` 初始化项目,可以直接输入内容或者创建完后修改.\r   * 生成文件内容如下\r    ```",
   "main": "index.js",
   "scripts": {

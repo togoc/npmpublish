@@ -2,26 +2,13 @@ const express = require("express")
 const app = express()
 
 
-
-const router = express.Router()
-
-router.get()
-
-
-module.exports = router
+app.use("/", express.static(__dirname + '/static'))
+app.use("/static", express.static("static"))
 
 
 
 
-function server(str) {
-    app.listen(str, () => {
-        console.log("running " + str)
-    })
-}
-
-app.get("", function(re, rq) {
-
-})
 
 
 module.exports = app
+
