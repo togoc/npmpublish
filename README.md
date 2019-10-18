@@ -23,4 +23,7 @@
   * `npm publish` 发布(镜像地址必须是npm,不能是其他不然报错)
 * 注释:他其实就是给你把模块保存起来,语法规则遵循模块化方法
   
+* 错误注释:
+  * 镜像地址错误: `no_perms Private mode enable, only admin can publish this module:` 
+  * 已经有相同名字源: ` You do not have permission to publish "express". Are you logged in as the correct user? : express`
 
