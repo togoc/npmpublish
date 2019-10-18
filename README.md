@@ -20,6 +20,7 @@
 * 终端命令注释:
   * `npm adduser` 添加npm用户([先去创建一个npm账户](https://www.npmjs.com/))
   * `npm login` 登录
-  * `npm publish` 发布()
+  * `npm publish` 发布(镜像地址必须是npm,不能是其他不然报错)
+* 注释:他其实就是给你把模块保存起来,语法规则遵循模块化方法
   
 
